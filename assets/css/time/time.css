@@ -32,8 +32,11 @@
     .time__placar {
         font-size: 36px;
     }
-    .psg , .montpellier {
-        width: 90px;
+    .psg {
+        width: 80px;
+    }
+    .montpellier {
+        width: 70px;
     }
 }
 

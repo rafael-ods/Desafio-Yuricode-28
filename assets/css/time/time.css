@@ -1,0 +1,51 @@
+.time {
+    display: flex;
+    justify-content: center;
+    column-gap: 34px;
+    align-items: center;
+    margin: 125px 0;
+}
+
+.time__nome {
+    color: var(--cor-preto);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.time__placar {
+    color: var(--cor-preto);
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 75px;
+}
+
+
+@media screen and (max-width:768px) {
+    .time__nome {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .time__placar {
+        font-size: 36px;
+    }
+    .psg , .montpellier {
+        width: 90px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .time__placar {
+        font-size: 25px;
+    }
+
+    .psg {
+        width: 80px;
+    }
+    .montpellier {
+        width: 70px;
+    }
+}

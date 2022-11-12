@@ -1,0 +1,26 @@
+@import url(./cabecalho/cabecalho.css);
+@import url(./apresentacao/apresentacao.css);
+@import url(./time/time.css);
+@import url(./bannerEstadio/bannerestadio.css);
+@import url(./noticias/noticias.css);
+@import url(./rodape/rodape.css);
+
+:root {
+    --cor-vermelho: #DA2535;
+    --cor-preto: #0B1421;
+    --cor-cinza: #515151;
+    --cor-branco: #F9F9F9;
+    --cor-azul-escuro: #0B1421;
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+
+body {
+    font-family: var(--fonte-principal);
+}
+
+.container {
+    padding: 0 2rem;
+    max-width: 1230px;
+    margin:  0 auto;
+}
